@@ -1,0 +1,140 @@
+
+.footer-main {
+    background-color: #282828;
+}
+
+.footer-main__top {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.footer-line {
+    width: 100%;
+    border-top: 1px solid #eee;
+}
+
+.footer-main__top-item {
+    padding: 0 12px 0 12px;
+    width: 25%;
+}
+
+.footer-item__part {
+    padding-bottom: 30px;
+}
+
+.footer-item__part p {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0;
+    padding: 0 0 9px 0;
+}
+
+.footer-item__part.contacts {
+    padding-bottom: 0;
+}
+
+.footer-item__part.contacts b {
+    border-bottom: 1px rgba(255, 255, 255, 0.75) dashed;
+}
+
+.footer-main__top-item h4 {
+    margin: 0 0 25px 0;
+    color: #EEE;
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.footer-main-item__nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-main-item__nav-list {
+    padding: 4px 0;
+    line-height: 22px;
+}
+
+.footer-main-item__nav-list:before {
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.footer-main-item__nav-list-link {
+    text-decoration: none;
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-main__top-item-ticket {
+    padding: 30px;
+    border: 2px dashed #AAA;
+    text-align: center;
+}
+
+.ticket-title {
+    color: #EEE;
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ticket-title span {
+    color: #f0a540;
+    font-size: 40px;
+}
+
+.ticket-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Quicksand-Regular', sans-serif;
+}
+
+.ticket-text span {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.footer-main__bottom {
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-main__bottom-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-main__bottom-left p {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-main-right__icon {
+    color: #777777;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*~~~~~~~~ FOOTER MEDIA ~~~~~~~~*/
+
+@media screen and (min-width: ){
+
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand-Bold', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0px 12px;
+    margin: auto;
+}

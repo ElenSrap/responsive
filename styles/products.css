@@ -1,0 +1,96 @@
+
+.section-products {
+    padding: 60px 0;
+}
+
+.section-products__info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-products__title {
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #333;
+    font-weight: 400;
+    font-family: 'Quicksand-Regular', sans-serif;
+    margin: 0;
+}
+
+.section-products__text {
+    font-weight: 300;
+    color: #777;
+    font-size: 20px;
+    font-family: 'Quicksand-light', sans-serif;
+    line-height: 30px;
+}
+
+.section-products__items {
+    display: flex;
+    width: 100%;
+}
+
+.section-products__item.is-image {
+    width: 41%;
+}
+
+.section-products__item.is-product {
+    width: 59%;
+}
+
+.section-products__item {
+    padding: 0 12px;
+}
+
+.section-products__product-items {
+    display: flex;
+}
+
+.section-products__product-item:hover .section-products__item-image {
+    transform: scale(1.05);
+}
+
+.section-products__item-image {
+    transition: transform .1s;
+}
+
+.section-products__item-image-link {
+    display: inline-block;
+}
+
+.section-products__item-image-link img {
+    width: 100%;
+    display: block;
+}
+
+.section-products__item-info {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.section-products__item-info-title-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Quicksand-Medium', sans-serif;
+    cursor: pointer;
+}
+
+.section-products__item-info-title-link:hover {
+    color: #f0a540;
+}
+
+.section-products__item-info-price {
+    color: #f0a540;
+    font-size: 18px;
+    font-family: 'Quicksand-Bold', sans-serif;
+    font-weight: 700;
+}
+
+/*~~~~~~~~ PRODUCTS MEDIA ~~~~~~~~*/
+
+@media screen and (min-width: ){
+
+}

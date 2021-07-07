@@ -1,0 +1,158 @@
+
+.section-join__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.section__info-title {
+    color: #333;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Quicksand-Regular', sans-serif;
+    margin: 0px;
+
+}
+
+.section__info-text {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-weight: 300;
+    color: #777;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.section__info-link.btn {
+    margin-top: 32px;
+    background-color: #f0a540;
+    color: #fff;
+    padding: 9px 26px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Quicksand-Regular', sans-serif;
+    display: inline-block;
+    line-height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.line {
+    margin: 32px 0;
+    border-top: 1px solid #eee;
+    width: 636px;
+}
+
+.section-item__count {
+    display: flex;
+    width: 100%;
+}
+
+.section__count-info.yellow {
+    width: 33.333%;
+}
+
+.section__count-info h2 {
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.section__count-info p {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 8px;
+    letter-spacing: 1px;
+}
+
+.section__count-info.yellow h2 {
+    color: #f0a540;
+}
+
+.section__count-info.yellow p {
+    color: #f0a540;
+}
+
+.section__count-info.blue {
+    width: 33.333%;
+}
+
+.section__count-info.blue h2 {
+    color: #22c1c3;
+}
+
+.section__count-info.blue p {
+    color: #22c1c3;
+}
+
+.section__count-info.red h2 {
+    color: #BD3F32;
+}
+
+.section__count-info.red p {
+    color: #BD3F32;
+}
+
+.section-slider__item {
+    display: flex;
+    box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2);
+    border-radius: 3px;
+    margin-bottom: 2px;
+    padding: 20px 27px 20px 20px;
+    border: 0px;
+    border-top: 1px solid #EEE;
+}
+
+.section-slider__image-link img {
+    border-radius: 50%;
+    height: 64px;
+}
+
+.section-slider__image-link {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+
+.section-slider__info-text {
+    font-family: 'Quicksand-Medium', sans-serif;
+    font-weight: 500;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.section-slider__info-name {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Quicksand-Medium', sans-serif;
+    line-height: 1.5;
+    color: #555;
+    margin: 10px 0 0 0;
+}
+
+.section-slider__info-name span {
+    font-weight: 500;
+    font-family: 'Quicksand-Medium', sans-serif;
+    color: #999;
+    font-size: 13px;
+}
+
+.section-slider__info-text {
+    margin: 0px;
+}
+
+.section-slider__item.bottom {
+    margin-top: 32px;
+}
+
+/*~~~~~~~~ JOIN MEDIA ~~~~~~~~*/
+
+@media screen and (min-width: ){
+
+}
