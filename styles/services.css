@@ -19,6 +19,7 @@
     color: #333;
     font-weight: 400;
     font-family: 'Quicksand-Regular', sans-serif;
+    margin: 0;
 }
 
 .section-services__text {
@@ -27,6 +28,8 @@
     font-size: 17px;
     font-family: 'Quicksand-light', sans-serif;
     line-height: 30px;
+    max-width: 700px;
+    margin: 10px auto 0;
 }
 
 .section-services__items {
