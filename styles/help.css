@@ -23,7 +23,7 @@
 .section-help__info-text {
     font-weight: 300;
     color: #777;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Quicksand-light', sans-serif;
     line-height: 30px;
     margin-top: 10px;
@@ -35,7 +35,7 @@
     margin: -24px 0 0 -24px;
 }
 
-.section-help__item{
+.section-help__item {
     padding: 24px 0 0 24px;
     width: 100%;
 }
@@ -58,6 +58,7 @@
     height: 100%;
     justify-content: center;
     position: relative;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .section-help__item-content-info-title {
@@ -103,16 +104,22 @@
     width: 40px;
 }
 
-.section-help__item-content-info:hover {
+.section-help__item-content:hover {
     transform: scale(1.05);
     box-shadow: 0 1px 1px 0;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .section-help__item {
         width: 33.333%;
     }
+
     .section-help__item-content-info-title {
         font-size: 28px;
     }
+
+    .section-help__info-text {
+        font-size: 20px;
+    }
+
 }
