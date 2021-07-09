@@ -114,12 +114,13 @@
 
 .section-slider__image-link img {
     border-radius: 50%;
-    max-height: 64px;
 }
 
 .section-slider__image-link {
     margin-right: 15px;
     display: inline-block;
+    width: 64px;
+    height: 64px;
 }
 
 .section-slider__info-text {
@@ -153,7 +154,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
     .section__count-info{
         width: 33.333%;
         margin-bottom: 0;

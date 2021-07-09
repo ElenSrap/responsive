@@ -17,7 +17,7 @@
 
 .footer-main__top-item {
     padding: 0 12px 50px 12px;
-    width: 50%;
+    width: 100%;
 }
 
 .footer-item__part {
@@ -145,6 +145,13 @@
 }
 
 /*~~~~~~~~ FOOTER MEDIA ~~~~~~~~*/
+
+@media screen and (min-width: 576px) {
+    .footer-main__top-item {
+        padding: 0 12px 50px 12px;
+        width: 50%;
+    }
+}
 
 @media screen and (min-width: 992px){
     .footer-main__top {
