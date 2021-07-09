@@ -48,20 +48,6 @@
                             <a href="#" class="nav-main__list-item-link btn">Register</a>
                         </li>
                     </ul>
-                    <ul class="hamburger-menu__list">
-                        <li class="hamburger-menu__item">
-                            <a href="#" class="hamburger-menu__item-link">ABOUT US</a>
-                        </li>
-                        <li class="hamburger-menu__item">
-                            <a href="#" class="hamburger-menu__item-link">COMMUNITY</a>
-                        </li>
-                        <li class="hamburger-menu__item">
-                            <a href="#" class="hamburger-menu__item-link">FAQS</a>
-                        </li>
-                        <li class="hamburger-menu__item">
-                            <a href="#" class="hamburger-menu__item-link">REGISTER</a>
-                        </li>
-                    </ul>
                 </nav>
             </div>
         </div>
@@ -585,5 +571,24 @@
         </div>
     </footer>
 </div>
+
+    <script>
+        var btn = document.getElementsByClassName('hamburger-menu'),
+            navContent = document.getElementsByClassName('nav-main');
+
+        btn[0].onclick = function () {
+            if (navContent[0].classList.contains('is-active')) {
+                navContent[0].classList.remove('is-active')
+            } else {
+                navContent[0].classList.add('is-active')
+            }
+        };
+
+        window.addEventListener('resize' , function () {
+           if (window.innerWidth >= 992 && navContent[0].classList.contains('is-active')){
+               navContent[0].classList.remove('is-active')
+           }
+        })
+    </script>
 </body>
 </html>
