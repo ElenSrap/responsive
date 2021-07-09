@@ -573,8 +573,9 @@
 </div>
 
     <script>
-        var btn = document.getElementsByClassName('hamburger-menu'),
-            navContent = document.getElementsByClassName('nav-main');
+        let btn = document.getElementsByClassName('hamburger-menu'),
+            navContent = document.getElementsByClassName('nav-main'),
+            headerContent = document.getElementsByClassName('header-main');
 
         btn[0].onclick = function () {
             if (navContent[0].classList.contains('is-active')) {
@@ -584,11 +585,20 @@
             }
         };
 
+        window.addEventListener('scroll' , function (){
+           if(window.pageYOffset  > 10) {
+               headerContent[0].classList.add('is-header-sticky')
+           }else{
+               headerContent[0].classList.remove('is-header-sticky')
+           }
+        });
+
         window.addEventListener('resize' , function () {
            if (window.innerWidth >= 992 && navContent[0].classList.contains('is-active')){
                navContent[0].classList.remove('is-active')
            }
         })
+
     </script>
 </body>
 </html>

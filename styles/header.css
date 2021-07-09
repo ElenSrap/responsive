@@ -36,27 +36,27 @@
     width: 100%;
 }
 
-.nav-main.is-active{
+.nav-main.is-active {
     display: block;
 }
 
-.nav-main__list{
+.nav-main__list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-main__list-item{
+.nav-main__list-item {
     padding: 14px 5px;
     border-top: 1px solid #eee;
-    border-top-color: rgba(255,255,255,0.15);
+    border-top-color: rgba(255, 255, 255, 0.15);
 }
 
-.nav-main__list-item:first-child{
+.nav-main__list-item:first-child {
     border-top: none;
 }
 
-.nav-main__list-item-link{
+.nav-main__list-item-link {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
@@ -68,11 +68,11 @@
     text-transform: uppercase;
 }
 
-.nav-main__list-item:hover .nav-main__list-item-link{
+.nav-main__list-item:hover .nav-main__list-item-link {
     color: #f0a540;
 }
 
-.nav-main__list-item:last-child:hover .nav-main__list-item-link{
+.nav-main__list-item:last-child:hover .nav-main__list-item-link {
     color: #ffffff;
 }
 
@@ -87,9 +87,8 @@
 }
 
 
-
 @media screen and (min-width: 992px) {
-    .hamburger-menu{
+    .hamburger-menu {
         display: none;
     }
 
@@ -97,25 +96,40 @@
         flex-wrap: nowrap;
     }
 
-    .header-logo__image1 {
+    .header-main {
+        position: fixed;
+        background: transparent;
+        transition: background-color .3s ease 0s;
+    }
+
+    .header-main.is-header-sticky {
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .header-main.is-header-sticky .header-logo__image1 {
         display: block;
     }
 
-    .header-logo__image2 {
+
+    .header-main.is-header-sticky .header-logo__image2 {
         display: none;
     }
 
-    .header-main {
-        position: fixed;
-        background: rgba(255, 255, 255, 0.6);
+    .header-main.is-header-sticky .nav-main__list-item-link {
+        color: #444;
     }
 
-    .nav-main{
+    .header-main.is-header-sticky .nav-main__list-item-link.btn {
+        color: #fff;
+    }
+
+    .nav-main {
         width: 50%;
         display: block;
     }
 
-    .nav-main.is-active{
+    .nav-main.is-active {
         display: none;
     }
 
@@ -131,7 +145,6 @@
     }
 
     .nav-main__list-item-link {
-        color: #444;
         padding: 39px 15px;
         font-size: 16px;
         font-weight: 500;
