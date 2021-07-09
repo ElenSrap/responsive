@@ -67,6 +67,7 @@
 
 .section-products__item-image-link {
     display: inline-block;
+    width: 200px;
 }
 
 .section-products__item-image-link img {
@@ -83,7 +84,7 @@
     text-decoration: none;
     display: inline-block;
     color: #333;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Quicksand-Medium', sans-serif;
     cursor: pointer;
@@ -116,6 +117,9 @@
     }
     .section-products__item.is-product {
         width: 59%;
+    }
+    .section-products__item-info-title-link {
+        font-size: 20px;
     }
 }
 
