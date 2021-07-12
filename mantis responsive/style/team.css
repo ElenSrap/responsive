@@ -1,0 +1,118 @@
+.section-team {
+    padding: 40px 0;
+}
+
+.section-team__inner h2 {
+    padding: 20px 0 40px;
+    margin: 0;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.section-team__members {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -49px 0 0 -19px;
+}
+
+.section-team__member {
+    width: 50%;
+    padding: 49px 0 0 19px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.section-team__member-inner {
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+.section-team__member-contents {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    transform: perspective(500px) rotateY(0deg);
+    overflow: hidden;
+    text-align: -webkit-center;
+}
+
+.section-team__member-contents.is-back {
+    background-color: #faf6ea;
+    border-radius: 19px;
+    transform: perspective(500px) rotateY(180deg);
+    opacity: 0;
+}
+
+.section-team__member:hover .section-team__member-contents.is-front {
+    transform: perspective(500px) rotateY(180deg);
+
+}
+
+.section-team__member:hover .section-team__member-contents.is-back {
+    transform: perspective(500px) rotateY(360deg);
+    opacity: 1;
+}
+
+.section-team__member-content {
+    padding: 0 10px 0 10px;
+}
+
+.section-team__member-name {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #303440;
+}
+
+.section-team__member-position {
+    border-top: 2px solid #dbbc65;
+    padding-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #74798c;
+}
+
+.section-team__member-image{
+    width: 158px;
+    height: 158px;
+}
+
+
+@media screen and (min-width: 576px){
+    .section-team__member {
+        width: 33.3333%;
+    }
+    .section-team__inner h2 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .section-team__member {
+        width: 25%;
+        padding: 49px 0 0 19px;
+    }
+    .section-team__member-name {
+        font-size: 20px;
+    }
+    .section-team__member-image{
+        width: 220px;
+        height: 220px;
+    }
+    .section-team__member-inner {
+        height: 340px;
+    }
+}

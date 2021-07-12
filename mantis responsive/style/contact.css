@@ -1,0 +1,168 @@
+.section-contact {
+    background: #dbbc65;
+    padding: 23px 53px;
+}
+
+.section-contact__inner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-contact__top-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-contact__bottom-image {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-contact__form {
+    width: 100%;
+    text-align: center;
+    padding: 0 8px 20px 8px;
+    max-width: 636px;
+}
+
+.section-contact__form-content-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0px 0 11px 0;
+}
+
+.section-contact__form-content-text {
+    margin: 18px 0 18px 0;
+    font-family: "Roboto-regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.section-contact__form-items {
+    padding-top: 20px;
+    width: 100%;
+    color: #000000;
+}
+
+.section-contact__form-input-items {
+    display: flex;
+    margin: -20px 0 20px -20px;
+    flex-wrap: wrap;
+}
+
+/* the same, without flex
+
+.section-contact__form-input-items{
+    margin: -20px 0 20px -20px;
+    font-size: 0;
+}
+.section-contact__form-input-item{
+    width: 50%;
+    padding: 20px 0 0 20px;
+    display:inline-block;
+}
+
+*/
+
+.section-contact__form-input-item {
+    width: 100%;
+    padding: 20px 0 0 20px;
+}
+
+.section-contact__form-input::placeholder {
+    color: #303440;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.section-contact__form-input {
+    display: block;
+    width: 100%;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.section-contact__form-textarea {
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    height: 139px;
+}
+
+.section-contact__form-textarea::placeholder {
+    color: #303440;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.section-contact__form-button {
+    min-width: 300px;
+    margin: 0 auto;
+    background: #5a4959;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 22px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+
+@media screen and (min-width: 576px){
+    .section-contact__form-content-title {
+        font-size: 34px;
+    }
+    .section-contact__form-input-item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .section-contact__inner {
+       flex-wrap: nowrap;
+    }
+    .section-contact__top-image {
+        width: 25%;
+        align-items: flex-start;
+    }
+    .section-contact__bottom-image {
+        text-align: right;
+        width: 25%;
+        align-items: flex-end;
+    }
+    .section-contact__form {
+        width: 50%;
+        padding: 38px 8px 20px 8px;
+    }
+    .section-contact__form-content-title {
+        margin: 28px 0 42px 0;
+    }
+    .section-contact__form-content-text {
+        font-size: 18px;
+    }
+}

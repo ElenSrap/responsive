@@ -1,0 +1,70 @@
+.section-services {
+    padding: 40px 0;
+}
+
+.section-services__title {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 19px 0 58px 0;
+}
+
+.section-services__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -43px 0 0 -60px;
+}
+
+.section-services__item {
+    width: 100%;
+    padding: 43px 0 0 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-services__item-image {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-services__item-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 2px solid #dbbc65;
+    color: #303440;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+.section-services__item-text {
+    margin: 0;
+    padding: 0;
+    color: #74798c;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@media screen and (min-width: 576px){
+    .section-services__item {
+        width: 50%;
+    }
+    .section-services__title {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .section-services__item {
+        width: 33.333%;
+    }
+}

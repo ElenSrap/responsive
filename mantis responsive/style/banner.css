@@ -1,0 +1,60 @@
+
+.section-banner__inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 55px 0 21px 0;
+}
+
+.section-banner__info {
+    position: relative;
+    max-width: 663px;
+    text-align: center;
+}
+
+.section-banner__info-title {
+    font-family: "Cabin", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: #303440;
+}
+
+.section-banner__info-text {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #74798c;
+    padding: 0;
+}
+
+.section-banner__image {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .section-banner__inner {
+        justify-content: left;
+        flex-wrap: nowrap;
+        padding: 75px 0 40px 0;
+    }
+
+    .section-banner__info {
+        position: absolute;
+        max-width: 382px;
+        text-align: left;
+    }
+
+    .section-banner__info-text {
+        font-size: 18px;
+    }
+
+    .section-banner__image {
+        margin-left: 316px;
+        margin-right: -32px;
+    }
+}
