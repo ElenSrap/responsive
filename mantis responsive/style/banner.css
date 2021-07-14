@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 55px 0 21px 0;
+    padding: 122px 0 21px 0;
 }
 
 .section-banner__info {
@@ -40,7 +40,7 @@
     .section-banner__inner {
         justify-content: left;
         flex-wrap: nowrap;
-        padding: 75px 0 40px 0;
+        padding: 95px 0 40px 0;
     }
 
     .section-banner__info {
