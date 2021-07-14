@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ec6d97d-6620-420e-8135-edaa6919cfef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mantis.html" beforeDir="false" afterPath="$PROJECT_DIR$/mantis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/team.css" afterDir="false" />
-    </list>
+    <list default="true" id="7ec6d97d-6620-420e-8135-edaa6919cfef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +105,7 @@
       <updated>1626084631539</updated>
       <workItem from="1626084633226" duration="24667000" />
       <workItem from="1626162263926" duration="3902000" />
-      <workItem from="1626258696325" duration="11798000" />
+      <workItem from="1626258696325" duration="12614000" />
     </task>
     <servers />
   </component>
