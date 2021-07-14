@@ -51,7 +51,6 @@
     .section-about-us__info {
         position: absolute;
         text-align: right;
-        right: 0;
         max-width: 470px;
     }
 }
